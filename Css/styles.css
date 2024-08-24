@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    height: 600px;
+}
+
+.container {
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-right: 80px;
+    height: 100px;
+}
+
+.header-left {
+    margin-top: 10px;
+}
+
+.header-left a {
+    text-decoration: none;
+    font-size: 38px;
+}
+
+.header-right {
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.header-right a {
+    color: black;
+    font-size: 20px;
+    margin: 0 20px;
+    text-decoration: none;
+}
+
+.main {
+    display: flex;
+    background-color: #dfe2e4;
+    height: 800px;
+    width: 100%;
+}
+
+.text-section h1 {
+    margin-top: 120px;
+    margin-bottom: 10px;
+    font-size: 60px;
+    font-weight: bolder;
+    margin-left: 100px;
+
+}
+
+.text-section p {
+    width: 400px;
+    font-size: 24px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.text-section .arrow {
+    font-size: 24px;
+}
+
+.image-section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 120px;
+    margin-left: 30px;
+}
+
+.breakfast-image img,
+.lunch-image img,
+.dinner-image img {
+    height: 450px;
+    width: 275px;
+    margin-left: 15px;
+}
+
+.breakfast-image {
+    height: 450px;
+    position: relative;
+}
+
+.breakfast-image span:first-of-type {
+    position: absolute;
+    right: 0;
+    bottom: 42px;
+    padding: 12px 20px;
+    background-color: #fff;
+    font-weight: 800;
+}
+
+.breakfast-image span:last-of-type {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 12px 15px 12px 50px;
+    background-color: #44e006;
+    font-weight: 800;
+}
+
+.lunch-image {
+    height: 450px;
+    position: relative;
+}
+
+.lunch-image span:first-of-type {
+    position: absolute;
+    right: 0;
+    bottom: 42px;
+    padding: 12px 20px;
+    background-color: #fff;
+    font-weight: 800;
+}
+
+.lunch-image span:last-of-type {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 12px 15px 12px 70px;
+    background-color: #44e006;
+    font-weight: 800;
+}
+
+.dinner-image {
+    height: 450px;
+    position: relative;
+}
+
+.dinner-image span:first-of-type {
+    position: absolute;
+    right: 0;
+    bottom: 42px;
+    padding: 12px 20px;
+    background-color: #fff;
+    font-weight: 800;
+}
+
+.dinner-image span:last-of-type {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 12px 18px 12px 70px;
+    background-color: #44e006;
+    font-weight: 800;
+}
