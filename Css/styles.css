@@ -63,7 +63,8 @@ body {
 }
 
 .text-section .arrow {
-    font-size: 24px;
+    margin-top: 40px;
+    font-size: 25px;
 }
 
 .image-section {
